@@ -21,6 +21,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     public Paint paint = new Paint();
     PlaybackBar bar = new PlaybackBar(Util.width() * 0.5f + Util.screenX(40), Util.screenY(645), Util.width() + Util.screenX(80), Util.screenY(150), Color.rgb(200, 200, 200));
     ModelWindow window;
+//    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
 //    Joint joint = new Joint(Util.width() * 0.5f - Util.screenX(100), Util.height() * 0.5f, Util.width() * 0.5f, Util.height() * 0.5f, Util.width() * 0.5f + Util.screenX(150), Util.height() * 0.5f);
     float x = 0, y = 0;
 //    Bezier curve = new Bezier(new PointF(Util.width() * 0.5f - 80, Util.height() * 0.5f - 80), new PointF(Util.width() * 0.5f - 80, Util.height() * 0.5f + 80), new PointF(Util.width() * 0.5f + 80, Util.height() * 0.5f + 80), new PointF(Util.width() * 0.5f + 80, Util.height() * 0.5f - 80));
